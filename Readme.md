@@ -1,6 +1,7 @@
 The prerequisites:
 
 vagrant plugin install vagrant-vbguest
+
 vagrant up
 
 Run command line to install IntelliJ:
