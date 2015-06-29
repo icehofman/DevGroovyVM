@@ -85,8 +85,6 @@ class dev {
 }
 
 class groovy {
-	#package {'unzip':}
-
 	class { 'gvm' :
 		owner   => 'vagrant',
 		group   => 'vagrant',
@@ -101,8 +99,6 @@ class groovy {
 }
 
 class intelliJ {
-	#class { "archive::prerequisites": }
-
 	class { 'idea::ultimate':
   	version => '14.1.4',
 	}
