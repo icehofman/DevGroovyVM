@@ -1,11 +1,22 @@
-The prerequisites:
+#Vagrant Groovy Develop
+---
 
-vagrant plugin install vagrant-vbguest
+##The pre-requisites:
 
-vagrant up
+ - VirtualBox
+ - Vagrant
 
-Run command line to install IntelliJ:
-bash /opt/idea-14.1.4/idea-IU-141.1532.4/bin/idea.sh
+##Plugins:
+ - vagrant plugin install vagrant-vbguest
 
+###Download the repo and execute:
+```sh
+$ vagrant up
+```
 
-time: 40 min
+###After 40 min...
+
+###Run command line to install IntelliJ:
+```sh
+$ bash /opt/idea-14.1.4/idea-IU-141.1532.4/bin/idea.sh
+```
