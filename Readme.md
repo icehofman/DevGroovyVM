@@ -1,4 +1,4 @@
-#Vagrant Groovy Develop
+Vagrant Groovy Develop
 ---
 
 ##The pre-requisites:
