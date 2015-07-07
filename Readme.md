@@ -6,9 +6,6 @@ Vagrant Groovy Develop
  - VirtualBox
  - Vagrant
 
-##Plugins:
- - vagrant plugin install vagrant-vbguest
-
 ###Download the repo and execute:
 ```sh
 $ vagrant up
